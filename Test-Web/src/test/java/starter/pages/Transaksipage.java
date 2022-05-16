@@ -7,11 +7,11 @@ import org.openqa.selenium.By;
 public class Transaksipage extends PageObject {
 
     private By SetItemfield() {
-        return By.xpath("             ");
+        return By.xpath("//*[@id=\"order-1468\"]/div[2]/button[1]/span");
     }
 
     private By ButtonTransactionfield() {
-        return By.xpath("   ");
+        return By.xpath("//*[@id=\"button-bayar\"]");
     }
 
     @Step
